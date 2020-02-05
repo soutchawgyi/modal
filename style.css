@@ -1,0 +1,82 @@
+@font-face	{
+	font-family: "merri";
+	src:url(fonts/Merriweather/Merriweather-bold.ttf);
+}
+
+@font-face	{
+	font-family: "ZMX";
+	src:url(fonts/Zhi_Mang_Xing/ZhiMangXing-Regular.ttf);
+}
+
+*	{
+	font-family: "merri";
+}
+
+#banner
+{
+	background: linear-gradient(to bottom,rgba(218, 163, 146, .4)0,rgba(218, 163, 146, .4) 100%), url(images/banner.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#contact_banner
+{
+	background: linear-gradient(to bottom,rgba(218, 163, 146, .4)0,rgba(218, 163, 146, .4) 100%), url(images/banner.jpg);
+	width: 100%;
+	height: 50vh	;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#font {
+	font-family: ZMX;
+}
+
+#navtitle	{
+	padding-top: 150px;
+}
+
+#divider	{
+	/*1 rem = */
+
+	max-width: 3.25rem;
+	border-width: .2rem;
+	border-color: #ec037c;
+}
+
+#contactbtn
+{
+	padding: 1.25rem 2.25rem;
+	font-size: .85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 10rem;
+	background-color: #ec037c;
+	color: white;
+	text-decoration: none;
+}
+
+
+.primary
+{
+	color: #ff3399;
+}
+
+#counter{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 35px;
+
+}
+
+nav.scrolled
+{
+	background-color: #F48FB1;
+}
